@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto mono;
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+}
+
+.logo h1 {
+    background-color: pink;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(70, 69, 69);
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: pink;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+    font-weight: 500;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.nav ul li a:hover {
+    color: rgb(60, 185, 144);
+}
+
+.lower-header {
+    background-image: url(./img/02-MARBEL_13.png);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.home h2 {
+    background-color: pink;
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.home h3 {
+    background-color: pink;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.home button {
+    padding: 1rem 1.5rem;
+    background-color: rgb(95, 152, 236);
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.home button a {
+    color: white;
+    background-color: pink;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.img {
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.one {
+    background-color: rgb(145, 128, 161);
+}
+
+.two {
+    background-color: red;
+}
+
+.three {
+    background-color: rgb(128, 172, 207);
+}
+
+.four {
+    background-color: rgb(223, 201, 80);
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.details h4 {
+    background-color: pink;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.details p {
+    font-size: 0.6rem;
+    background-color: pink;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+}
+
+hr {
+    margin-bottom: 4rem;
+    color: gray;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    height: 60vh;
+}
+
+.work h3 {
+    background-color: pink;
+    font-weight: 400;
+    color: rgb(68, 68, 68);
+}
+
+.work-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.bussiness-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.upper-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.upper-info h4 {
+    font-size: 1.2rem;
+    background-color: pink;
+    color: rgb(68, 68, 68);
+}
+
+.upper-info p {
+    color: grey;
+    background-color: pink;
+    font-size: 0.8rem;
+}
+
+.lower-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.lower-info p {
+    font-size: 0.7rem;
+    color: rgb(68, 68, 68);
+    background-color: pink;
+}
+
+.upper-footer {
+    background-color: rgb(235, 235, 233);
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.fa-solid {
+    color: rgb(223, 218, 218);
+    font-size: 3rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info p {
+    background-color: pink;
+    color: grey;
+}
+
+.lower-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: black;
+}
+
+.upper-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 3rem;
+}
+
+.contect-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.contect-area h3 {
+    background-color: pink;
+    color: rgb(90, 90, 90);
+}
+
+.some-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.some-info p {
+    background-color: pink;
+    color: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} 
+
+.address i{
+    font-size: 1rem;
+}
+
+.address p {
+    background-color: pink;
+    color: white;
+}
+
+.lower-footer hr {
+    color: grey;
+    width: 90%;
+}
+
+.lower-footer p {
+    background-color: pink;
+    color: white;
+}
